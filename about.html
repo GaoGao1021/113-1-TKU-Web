@@ -1,21 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-TW">
   <head>
-    <title>自我介紹</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>歡迎來到我的網站！</h1>
+    <h1>自我介紹</h1>
     <h2>我不知道要介紹甚麼</h2>
-    <h3>就先隨便打打了</h3>
-    <h4>這邊是廢話</h4>
-    <h5>主要內容在下面</h5>
-    <h6>好了我只是在試字的大小</h6>
+    <h3 class="center-text">就先隨便打打了</h3>
+    <h4 class="center-text">這邊是廢話</h4>
+    <h5 class="center-text">主要內容在下面</h5>
+    <h6 class="center-text">好了我只是在試字的大小</h6>
 
-    <div>
-      <p>___________________________________________________________________________________________________________________________________________</p>
+    <div class="separator">
+      <hr>
     </div>
-    
+
     <h3>[關於我]</h3>
     <table>
       <tr>
@@ -31,48 +33,53 @@
         <td>資管三C</td>
       </tr>
     </table>
-    <ul>
-      <li>我的興趣</li>
-      <ol>
-        <li>繪畫</li>
-        <li>睡覺</li>
-        <li>寫程式</li>
-        <li>閱讀歷史相關文章</li>
-      </ol>
-    </ul>
 
-    <ul>
-      <li>喜歡的食物</li>
-      <ol>
-        <li>牛排</li>
-        <li>披薩</li>
-        <li>咖哩</li>
-        <li>生魚片</li>
-      </ol>
-    </ul>
+    <div class="interests">
+      <div class="interests-container">
+        <div class="interest-item">
+          <h3>興趣</h3>
+          <ul>
+            <li>繪畫</li>
+            <li>睡覺</li>
+            <li>寫程式</li>
+            <li>閱讀歷史相關文章</li>
+          </ul>
+        </div>
+        <div class="interest-item">
+          <h3>喜歡的食物</h3>
+          <ul>
+            <li>牛排</li>
+            <li>披薩</li>
+            <li>咖哩</li>
+            <li>生魚片</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-    <div>
-      <p>___________________________________________________________________________________________________________________________________________</p>
+    <div class="separator">
+      <hr>
     </div>
 
     <h3>[平時休閒]</h3>
-    <p>我平時的休閒愛好，就是到處走走看些風景，然後用手機紀錄下來。</p>
-    <p>其中我最喜歡的是日落時的淡水河。以下是我在網路找到的照片。</p>
-    <img src="淡水落日.jpg" alt="淡水落日">
-    <a href="https://slowandtravel.com/?p=5324"><span>點擊前往原始網站。</span></a>
-    <div>
-      <p>___________________________________________________________________________________________________________________________________________</p>
+    <p class="center-text">我平時的休閒愛好，就是到處走走看些風景，然後用手機紀錄下來。</p>
+    <p class="center-text">其中我最喜歡的是日落時的淡水河。以下是我在網路找到的照片。</p>
+    <img src="淡水落日.jpg" alt="淡水落日" class="center-img">
+    <p class="center-text"><a href="https://slowandtravel.com/?p=5324">點擊前往原始網站。</a></p>
+
+    <div class="separator">
+      <hr>
     </div>
 
     <h3>[聯絡我]</h3>
-    <p>有興趣可以考慮聯絡我，嗯對。</p>
+    <p class="center-text">有興趣可以考慮聯絡我，嗯對。</p>
     <form action="/submit" method="post">
       <label for="gmail">信箱:</label>
       <input type="text" id="gmail" name="gmail">
       <input type="submit" value="提交">
     </form>    
 
-    <strong>我的介紹就到此結束。</strong>
-    <em>謝謝觀看！～</em>
+    <strong class="center-text">我的介紹就到此結束。</strong>
+    <em class="center-text">謝謝觀看！～</em>
   </body>
 </html>

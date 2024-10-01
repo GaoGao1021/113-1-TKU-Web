@@ -1,0 +1,166 @@
+/* 全局樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 主要標題樣式 */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* 分隔線樣式 */
+.separator hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* 介紹區塊的表格樣式 */
+table {
+    margin: 20px auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* 興趣與喜好區塊樣式 */
+.interests {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.interests h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.interest-item {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.interest-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.interest-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.interest-item ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* 加強清單符號設計 */
+.interest-item ul li::before {
+    content: "•";
+    color: #555;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* 圖片樣式 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* 表單樣式 */
+form {
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+strong {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+em {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.center-text {
+    text-align: center;
+    margin: 20px 0;
+}
